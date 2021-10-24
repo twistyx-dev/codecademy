@@ -1,4 +1,4 @@
-var secretIdentity = "Tony Stark"
+var secretIdentity = "Prince T'Challa"
 var superheroName: String
 
 if secretIdentity == "Tony Stark" {
@@ -13,4 +13,19 @@ if secretIdentity == "Tony Stark" {
   superheroName = "Unknown"
 }
 
-// Write your code below
+// First time writing a switch!!
+
+switch secretIdentity {
+  case "Tony Stark":
+    superheroName = "Iron Man"
+  case "Natasha Romanoff":
+    superheroName = "Black Widow"
+  case "Prince T'Challa":
+    superheroName = "Black Panther"
+  case "Thor":
+    superheroName = "Thor"
+  default:
+    superheroName = "Unknown"
+}
+
+print(superheroName)
